@@ -12,10 +12,10 @@
 function IsInDesignMode()
 {
     if(document.getElementById("MSOLayout_InDesignMode").value == '1')
-    return true;
+        return true;
 
     if(document.getElementById("MSOTlPn_SelectedWpId").value != "")
-    return true;
+        return true;
 
     return false;
 }
